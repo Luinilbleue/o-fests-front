@@ -1,0 +1,63 @@
+@import "src/styles/vars";
+
+.ui.modal {
+  background: none !important;
+}
+
+.ui.placeholder.segment .button,
+.ui.placeholder.segment .field,
+.ui.placeholder.segment textarea,
+.ui.placeholder.segment > .ui.input {
+  max-width: 300px !important;
+}
+
+.connection-form-column {
+  background-image: url("https://cdn.discordapp.com/attachments/120955568063119361/618792272867360846/1370870-motherboard-background_1.png") !important;
+  padding: 2rem !important;
+}
+.segment {
+  background-color: none !important;
+}
+.inscription-form-input {
+  margin-top: 2rem;
+}
+.connection-form-input {
+  margin-top: 2rem !important;
+}
+
+.ui.input > input {
+  color: $main-font-color;
+}
+
+.hidden {
+  display: none;
+}
+
+.ui.inverted.grey.segment {
+  font-weight: 700 !important;
+  background-color: $purple-font-color !important;
+}
+
+.ui.inverted.red.segment {
+  font-weight: 700 !important;
+  background-color: $red-font-color !important;
+}
+
+.forgotten-pass {
+  text-align: center;
+  margin: 1vh auto;
+  & a{
+    color: rgba($color: #FFFFFF, $alpha: 0.7);
+    &:hover{
+      color: $title-font-color;
+    }
+  }
+}
+
+.ui.form .field {
+  margin: 0 auto 1rem auto !important;
+}
+
+.ui.primary.button, .ui.primary.buttons .button {
+  margin-bottom: 2em;
+}

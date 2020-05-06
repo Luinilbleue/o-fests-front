@@ -1,0 +1,33 @@
+
+@import 'reset';
+@import 'vars';
+
+@font-face {
+  font-family: 'knuckle_sandwichitalic';
+  src: url("./fonts/knucklesandwich-italic-webfont.woff2") format('woff2'),
+       url("./fonts/knucklesandwich-italic-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'knuckle_sandwichregular';
+  src: url("./fonts/knucklesandwich-regular-webfont.woff2") format('woff2'),
+       url("./fonts/knucklesandwich-regular-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2,
+.ui.card > .content > .header:not(.ui), .ui.cards > .card > .content > .header:not(.ui) {
+  font-weight: normal !important;
+}
+
+.ui.modal > .close {
+  color: $red-font-color !important;
+}
+
+h1 {
+  font-size: 2rem;
+}
+

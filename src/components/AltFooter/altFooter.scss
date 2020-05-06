@@ -1,0 +1,46 @@
+@import 'src/styles/vars';
+
+.ui.inverted.menu.footer-menu {
+  font-size: 1.5vh !important;
+  z-index: 99;
+  margin-bottom: 0px !important;
+  margin-top: 8vh !important;
+  padding: 0 0.5vw !important;
+  height: 15vh;
+  background-color: #000000 !important;
+  position: fixed;
+  bottom: -10vh !important;
+  transition: bottom 0.4s ease;
+  width: 100vw;
+  &:hover {
+    bottom: 0vh !important;
+  }
+}
+
+.ui.tiny.image, .ui.tiny.images .image, .ui.tiny.images img, .ui.tiny.images svg {
+  position: absolute;
+  top: -5vh;
+  z-index: 99;
+}
+
+.footer-item {
+  color: $title-font-color !important;
+  font-weight: bold !important;
+}
+
+.ui.inverted.menu .dropdown.item:hover, .ui.inverted.menu .link.item:hover, .ui.inverted.menu a.item:hover, .ui.link.inverted.menu .item:hover {
+  background-color: darken($red-font-color, 30%);
+  transition: background-color 0.6s ease;
+}
+
+.ui.inverted.menu .active.item {
+  color: $red-font-color !important;
+  background: none;
+  border-radius: 0;
+  transition: color 0.6s ease;
+}
+
+.ui.inverted.menu .active.item:hover {
+  color: $red-font-color !important;
+  background: none;
+}

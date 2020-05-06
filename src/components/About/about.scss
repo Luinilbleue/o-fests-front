@@ -1,0 +1,56 @@
+@import 'src/styles/vars';
+
+.about-card-zone {
+  width: 80%;
+  margin: 6em auto;
+}
+.about-card{
+  width: fluid;
+  
+}
+.about-img{
+  width: fluid;
+}
+.card-content{
+  background-color: $input-background !important;
+  
+}
+.card-text{
+  color: $title-font-color !important;
+  font-family: $title-font !important;
+  letter-spacing: 0.5em;
+  text-align: center;
+}
+.card-role{
+  font-family: $body-font !important;
+  color: $title-font-color !important;
+  text-align: center !important;
+  font-weight: bold !important;
+}
+.card-description{
+  font-family: $body-font !important;
+  color: $main-font-color !important;
+  text-align: center !important;
+}
+.card-footer{
+  font-family: $body-font !important;
+  text-align: center !important;
+  background-color: $title-font-color !important;
+}
+.linkedin-link {
+  color: black !important;
+}
+
+.ui.grid > * {
+  justify-content: center!important;
+}
+.about-text{
+  color: $main-font-color;
+  font-family: $body-font;
+  width: 75%;
+  margin: 2rem auto ;
+  text-align: center;
+}
+.about-links{
+  color: $red-font-color !important;
+}

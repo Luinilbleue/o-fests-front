@@ -1,0 +1,85 @@
+@import "src/styles/vars";
+
+.fest-details {
+  margin: 0 auto !important;
+  width: 90%;
+  height: 67vh;
+  color: $main-font-color;
+  &-title {
+    text-transform: uppercase;
+    font-family: $title-font;
+    color: $title-font-color;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  &-date {
+    width: 80%;
+    text-align: center;
+    color: $main-font-color;
+    margin: 1.5rem auto;
+  }
+  &-location {
+    width: 80%;
+    text-align: center;
+    color: $main-font-color;
+    margin: 2rem auto;
+    &-city {
+      text-align: center;
+      font-weight: 700;
+      color: $red-font-color;
+      text-transform: uppercase;
+    }
+  }
+  &-img {
+    margin: 2.2rem auto;
+    height: 42vh;
+    border: 1px solid $title-font-color;
+  }
+  &-description {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+  }
+  &-link {
+    width: 80%;
+    margin: 1em auto !important;
+    font-size: 1.2em;
+  }
+  &-button-zone {
+    text-align: center;
+    width: 100%;
+    margin: 6vh auto 13vh auto;
+  }
+  &-map {
+    height: 50vh !important;
+    width: 80% !important;
+    margin-bottom: 2em;
+  }
+  a {
+    color: $title-font-color !important;
+  }
+  a:hover {
+    color: $red-font-color !important;
+  }
+}
+
+.loading-message {
+  text-align: center;
+  margin: 2vh auto;
+}
+.genre-list{
+  padding: 1em;
+  &-title{
+    color: $red-font-color;
+    width: 80%;
+    margin: 1em auto 0 auto;
+    font-size: 1.2em;
+  }
+  &-item{
+    color: $main-font-color;
+    width: 80%;
+    margin: 0.5em auto;
+    font-size: 1em;
+  }
+} 

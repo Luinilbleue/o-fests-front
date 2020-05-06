@@ -1,0 +1,46 @@
+@import "src/styles/vars";
+
+.filter-form {
+  min-height: 40vh;
+}
+
+.ui.divider:not(.vertical):not(.horizontal) {
+  border-top: 1px solid $title-font-color !important;
+}
+
+.map-container {
+  padding-left: 3rem !important;
+  min-height: 40vh;
+}
+
+.ui.grid > .column:not(.row) {
+  margin: 0 auto !important;
+  padding-top: 0;
+}
+
+.ui.grid > .row {
+  padding: 0 !important;
+}
+
+.ui.grid .row + .ui.divider {
+  margin: 0 !important;
+}
+
+.all-fest-title {
+  text-align: center;
+  font-family: $title-font;
+  color: $main-font-color;
+  font-size: 2em;
+  margin: 0;
+}
+
+.reset{
+  text-align: center;
+  width: 50%;
+  margin: 2em auto;
+  &-button {
+    &-link{
+    color: $title-font-color;
+    }
+  }
+}

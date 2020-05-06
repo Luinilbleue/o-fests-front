@@ -1,0 +1,152 @@
+@import 'src/styles/vars';
+
+
+.newfest {
+  margin: 0 auto;
+  color: $main-font-color;
+  height: auto;
+}
+
+.text {
+  color: $main-font-color !important;
+}
+
+.form {
+  margin:0 auto !important;
+}
+
+.form:first-child{
+  width: 80%;
+}
+
+.ui.label {
+  margin: 0 0.3em !important;
+  text-align: center !important;
+  font-size: 0.9em !important;
+  color: lighten($title-font-color, 10%) !important;
+  background-color: darken($purple-font-color, 10%) !important;
+  &-mandatory {
+    background-color: darken($red-font-color, 10%) !important;
+    color: lighten($title-font-color, 15%) !important;
+    animation: glow 800ms ease-out infinite alternate;
+    outline: none;
+  }
+}
+
+
+
+
+/* .ui.inverted.red.button, .ui.inverted.red.buttons .button {
+  color: $red-font-color !important;
+  box-shadow: 0 0 0 2px $red-font-color inset !important;
+} */
+
+.ui.input,
+.datepicker,
+.country-dropdown > .search,
+.country-dropdown > .multiple,
+.ui.form textarea,
+.DayPickerInput input{
+  border: 1px solid lighten($title-font-color, 10%) !important;
+}
+
+.ui.input > input,
+.datepicker,
+.country-dropdown > .search,
+.country-dropdown > .multiple,
+.country-dropdown > .text,
+.ui.selection.active.dropdown .menu,
+.ui.form textarea, .DayPickerInput input {
+  background-color: #0f0f0f !important;
+}
+
+.ui.selection.dropdown {
+  border-radius: 0 !important;
+}
+
+.ui.selection.dropdown .menu > .item {
+  border: none !important;
+}
+
+body ::-webkit-scrollbar-thumb {
+  cursor: pointer !important;
+  border-radius: 5px !important;
+  background: rgba(200, 200, 200, 0.8) !important;
+}
+
+.DayPickerInput > input:focus,
+.ui.input.focus > input,
+.ui.input > input:focus {
+  border: 1px solid $input-background !important;
+  border-radius: none;
+}
+
+.ui.input > input::-webkit-input-placeholder {
+  color: rgba(226, 226, 226, 0.87) !important;
+}
+.ui.input > input::-moz-placeholder {
+  color: rgba(226, 226, 226, 0.87) !important;
+}
+.ui.input > input:-ms-input-placeholder {
+  color: rgba(226, 226, 226, 0.87) !important;
+}
+
+.ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], input[type=multiple], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url],
+.ui.selection.dropdown > .delete.icon, .ui.selection.dropdown > .dropdown.icon, .ui.selection.dropdown > .search .multiple .icon {
+  color: $main-font-color !important;
+  border-radius: 0 !important;
+}
+
+.ui.form textarea {
+  border-radius: 0 !important;
+  color: $main-font-color;
+  height: 20vh;
+  &:focus {
+    color: $main-font-color !important;
+  }
+}
+
+@keyframes glow {
+  0% {
+  box-shadow: 0 0 0.5em $red-font-color;
+  }	
+  100% {
+  box-shadow: 0 0 2em $red-font-color;
+  }
+}
+
+.ui.action.input:not([class*="left action"]) > .button:last-child, .ui.action.input:not([class*="left action"]) > .buttons:last-child > .button, .ui.action.input:not([class*="left action"]) > .dropdown:last-child {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  border-radius: 0 !important;
+  color: $title-font-color;
+  background-color: darken($input-background, 10%);
+}
+
+.warning{
+  margin-top: 1.5em;
+  & > h2 {
+    color: lighten($title-font-color, 10%);
+  }
+  & > p {
+    font-size: 1.1325em;
+  }
+}
+
+.connect-please {
+  font-size: 2rem;
+  font-family: $title-font;
+  color: $red-font-color;
+}
+
+.newFestCalendar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hidden {
+  display: none;
+}
+

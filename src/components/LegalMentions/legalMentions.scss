@@ -1,0 +1,20 @@
+@import 'src/styles/vars';
+
+.legal {
+  text-align: center;
+  width: 60%;
+  font-family: $body-font;
+  color: $main-font-color;
+  margin: auto;
+}
+.legal-title {
+  font-family: $title-font;
+  color: $title-font-color;
+  margin: 1.5em 0 0.5em 0;
+  font-size: 3vh;
+}
+
+.important-notice {
+  font-size: 1.5em;
+  font-style: italic;
+}

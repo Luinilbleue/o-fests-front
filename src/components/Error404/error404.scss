@@ -1,0 +1,14 @@
+@import 'src/styles/vars';
+
+.error{
+    &-text{
+        margin: 5rem auto;
+        color: $main-font-color;
+        font-family: $title-font;
+        text-align: center;
+    }
+}
+
+.ui.disabled.image, .ui.disabled.images {
+    opacity: 100 !important;
+}

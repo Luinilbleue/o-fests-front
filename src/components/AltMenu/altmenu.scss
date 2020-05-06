@@ -1,0 +1,58 @@
+@import 'src/styles/vars';
+
+.ui.secondary.inverted.menu {
+  margin: 2vh auto;
+  padding: 2.5vh;
+  height: 18vh;
+  background-image: url("https://cdn.discordapp.com/attachments/120955568063119361/618786770137645076/navbar.png");
+  background-size: auto 18vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $main-font-color !important;
+  font-family: $title-font;
+  font-size: 2.7vh;
+}
+
+.item.menu-item {
+  margin-top: -1.5vh !important;
+}
+
+.ui.secondary.inverted.menu .active.item {
+  color: $title-font-color !important;
+  background: none;
+  border-radius: 0;
+  transition: color 0.6s ease;
+}
+
+.ui.secondary.inverted.menu .dropdown.item:hover, .ui.secondary.inverted.menu .link.item:hover, .ui.secondary.inverted.menu a.item:hover, .ui.menu .ui.dropdown .menu > .item:hover {
+  color: $red-font-color !important;
+  background: none;
+  transition: color 0.6s ease;
+}
+
+.ui.menu .dropdown.item .menu {
+  border: 1px solid $title-font-color;
+  border-radius: 0 !important;
+  background-image: url("https://cdn.discordapp.com/attachments/120955568063119361/618792272867360846/1370870-motherboard-background_1.png") !important;
+}
+.ui.menu .ui.dropdown .menu > .item {
+  color: $title-font-color !important;
+}
+
+.ui.menu .ui.dropdown.item .menu .item:not(.filtered) {
+  margin: 1rem 0 !important;
+}
+
+.ui.secondary.menu .dropdown.item > .menu, .ui.text.menu .dropdown.item > .menu {
+  margin-top: 0 !important;
+}
+
+.title-quote {
+  max-width: 20vw;
+  color: $red-font-color;
+  font-family: $title-font;
+  font-style: italic;
+  position: relative;
+  right: -60vw;
+  top: -7vh;
+}
